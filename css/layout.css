@@ -1,0 +1,26 @@
+.body{
+    display: grid;
+    grid-template-rows: 200px 200px 200px;
+}
+
+.nameList{
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    grid-row: 1;
+    justify-self: start;
+    align-self: center;
+}
+
+.button{
+    grid-row: 2;
+    width: 200px;
+    height: 100px;
+    justify-self: center;
+}
+
+.name{
+    grid-row: 3;
+    justify-self: center;
+    align-self: center;
+}
