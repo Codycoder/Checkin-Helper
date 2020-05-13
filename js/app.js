@@ -1,4 +1,4 @@
-let listOfNames = ["Olivia", "Hetal", "Brian", "Mercy", "Ben", "Noah", "Nick", "Jonathan", "Abdul", "Anna", "Aaron", "Stuart", "Innocent", "Fatuma", "Brandon", "Gaelan", "Al", "Daniel", "Colin", "James", "Nadir", "Daly"];
+let listOfNames = ["Robyn", "Alisyn", "Cameron", "Christin", "Claudia", "Derek", "JD(Gale)", "James", "Jason G", "Jason O", "John", "Kendyl", "Kenny", "Kyle", "Landon", "Laterrell", "Mignonne", "Miles", "Mo", "Musa", "Nick", "Riley", "Samuel", "Sara T", "Sarah G", "Shawn", "Trey"];
 let button = document.querySelector(".button");
 let nameList = document.querySelector(".nameList");
 let name = document.querySelector(".name");
