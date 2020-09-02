@@ -1,4 +1,7 @@
-let listOfNames = ["Robyn", "Alisyn", "Cameron", "Christin", "Claudia", "Derek", "JD(Gale)", "James", "Jason G", "Jason O", "John", "Kendyl", "Kenny", "Kyle", "Laterrell", "Mignonne", "Miles", "Moe", "Musa", "Nick", "Riley", "Samuel", "Sara T", "Sarah G", "Shawn", "Trey"];
+let listOfNames = ["Abigail", "Alyssha", "Andrea", "David Alvarado", "David Granados",
+    "Jarel", "Joesph", "Kolton", "Lauren", "Levi", "Mulat", "Munir", "Mustafa", "Naoual",
+    "Ryan", "Seth", "Stella", "Tyler", "Weiwei"
+];
 let button = document.querySelector(".button");
 let nameList = document.querySelector(".nameList");
 let name = document.querySelector(".name");
@@ -6,12 +9,12 @@ let randomName = "";
 
 
 let randomizeArray = () => {
-    listOfNames.sort(() => Math.random() -0.5);
+    listOfNames.sort(() => Math.random() - 0.5);
 }
 
 let printName = (name, randomName, listOfNames) => {
-    randomName = listOfNames[listOfNames.length-1];
-    if ((listOfNames.length-1) >= 0){
+    randomName = listOfNames[listOfNames.length - 1];
+    if ((listOfNames.length - 1) >= 0) {
         name.innerHTML = 'Next is ' + randomName;
     } else {
         name.innerHTML = "Next is Travis"
@@ -19,7 +22,7 @@ let printName = (name, randomName, listOfNames) => {
 }
 
 let removeName = (listOfNames) => {
-    listOfNames.splice(listOfNames.length-1, 1);
+    listOfNames.splice(listOfNames.length - 1, 1);
 }
 
 let showNameList = (listOfNames) => {
@@ -34,6 +37,6 @@ let runApp = () => {
         removeName(listOfNames);
         showNameList(listOfNames);
     })
-} 
+}
 
 runApp();
