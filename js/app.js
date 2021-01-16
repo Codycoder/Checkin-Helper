@@ -1,6 +1,6 @@
-let listOfNames = ["Abigail", "Alyssha", "Andrea", "David Alvarado", "David Granados", "David Trimmer", "Jane",
-    "Jarel", "Joesph", "Kolton", "Lauren", "Levi", "Millie", "Mulat", "Munir", "Mustafa", "Naoual",
-    "Ryan", "Stella", "Tyler",
+let listOfNames = ["Shannon", "Shannelle", "Tiah", "Kimberly", "Sharmika", "Joe", "Eric",
+    "Diontray", "Gavin", "Kyle", "Mary", "Jason", "Chris", "Kelsey", "Skye", "JE", "Adam",
+    "Michael", "Michelle", "Cory", "Karlton", "Janet", "Trenton", "Seann", "Anthony", "Jamar"
 ]
 let button = document.querySelector(".button");
 let nameList = document.querySelector(".nameList");
@@ -17,7 +17,7 @@ let printName = (name, randomName, listOfNames) => {
     if ((listOfNames.length - 1) >= 0) {
         name.innerHTML = 'Next is ' + randomName;
     } else {
-        name.innerHTML = "Next is Travis"
+        name.innerHTML = "Next is Instructor"
     }
 }
 
