@@ -1,6 +1,6 @@
 let listOfNames = ["Shannon", "Shannelle", "Tiah", "Kimberly", "Sharmika", "Joe", "Eric",
-    "Diontray", "Gavin", "Kyle", "Mary", "Jason", "Chris", "Kelsey", "Skye", "JE", "Adam",
-    "Michael", "Michelle", "Cory", "Karlton", "Janet", "Trenton", "Seann", "Anthony", "Jamar"
+    "Gavin", "Kyle", "Mary", "Jason", "Chris", "Kelsey", "Skye", "JE", "Adam",
+    "Michael", "Cory", "Karlton", "Janet", "Trenton", "Seann", "Jamar"
 ]
 let button = document.querySelector(".button");
 let nameList = document.querySelector(".nameList");
