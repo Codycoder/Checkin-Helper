@@ -1,4 +1,4 @@
-let listOfNames = ["Shannon", "Shannelle", "Tiah", "Kimberly", "Sharmika", "Joe", "Eric",
+let listOfNames = ["Shannon", "Tiah", "Sharmika", "Joe", "Eric",
     "Gavin", "Kyle", "Mary", "Jason", "Chris", "Kelsey", "Skye", "JE", "Adam",
     "Michael", "Karlton", "Janet", "Trent", "Seann", "Jamar"
 ]
