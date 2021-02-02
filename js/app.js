@@ -1,5 +1,5 @@
 let listOfNames = ["Shannon", "Tiah", "Sharmika", "Joe", "Eric",
-    "Gavin", "Kyle", "Mary", "Jason", "Chris", "Kelsey", "Skye", "JE", "Adam",
+    "Gavin", "Kyle", "Jason", "Chris", "Kelsey", "Skye", "JE", "Adam",
     "Michael", "Karlton", "Janet", "Trent", "Seann", "Jamar"
 ]
 let button = document.querySelector(".button");
